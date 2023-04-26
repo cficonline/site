@@ -5,7 +5,7 @@
 $bg-light: #f5f5f5;
 $bg-light-darker: darken($bg-light, 10%);
 $text-light: #333333;
-$accent-light: #b8768c;
+$accent-light: #a393af;
 $accent-shadow-light: darken($accent-light, 10%);
 $accent-alt-light: #a393af;
 $accent-alt-shadow-light: darken($accent-alt-light, 10%);
@@ -134,4 +134,9 @@ body {
     main {
         width: 100%;
     }
+}
+
+.jane {
+    display: flex;
+    justify-content: center;
 }

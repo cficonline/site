@@ -5,8 +5,8 @@
   --background: #f5f5f5;
   --background-alt: gainsboro;
   --text: #333333;
-  --accent: #b8768c;
-  --accent-shadow: #a55670;
+  --accent: #a393af;
+  --accent-shadow: #8a7699;
   --accent-alt: #a393af;
   --accent-alt-shadow: #8a7699;
 }
@@ -16,8 +16,8 @@
     --background: #f5f5f5;
     --background-alt: gainsboro;
     --text: #333333;
-    --accent: #b8768c;
-    --accent-shadow: #a55670;
+    --accent: #a393af;
+    --accent-shadow: #8a7699;
     --accent-alt: #a393af;
     --accent-alt-shadow: #8a7699;
   }
@@ -27,8 +27,8 @@
     --background: #1a1a1a;
     --background-alt: #010101;
     --text: #f5f5f5;
-    --accent: #d1819b;
-    --accent-shadow: #c45b7e;
+    --accent: #b69cca;
+    --accent-shadow: #9e7bb8;
     --accent-alt: #a393af;
     --accent-alt-shadow: #8a7699;
   }
@@ -114,4 +114,8 @@ body {
   main {
     width: 100%;
   }
+}
+.jane {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
