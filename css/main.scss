@@ -5,10 +5,8 @@
 $bg-light: #f5f5f5;
 $bg-light-darker: darken($bg-light, 10%);
 $text-light: #333333;
-$accent-light: #a393af;
+$accent-light: #9688a1;
 $accent-shadow-light: darken($accent-light, 10%);
-$accent-alt-light: #a393af;
-$accent-alt-shadow-light: darken($accent-alt-light, 10%);
 
 // Dark mode
 $bg-dark: #1a1a1a;
@@ -16,8 +14,6 @@ $bg-dark-darker: darken($bg-dark, 10%);
 $text-dark: #f5f5f5;
 $accent-dark: lighten(saturate($accent-light, 15%), 7%);
 $accent-shadow-dark: darken($accent-dark, 10%);
-$accent-alt-dark: #a393af;
-$accent-alt-shadow-dark: darken($accent-alt-dark, 10%);
 
 :root {
     --background: #{$bg-light};
@@ -25,8 +21,6 @@ $accent-alt-shadow-dark: darken($accent-alt-dark, 10%);
     --text: #{$text-light};
     --accent: #{$accent-light};
     --accent-shadow: #{$accent-shadow-light};
-    --accent-alt: #{$accent-alt-light};
-    --accent-alt-shadow: #{$accent-alt-shadow-light};
 }
 
 // Media queries to set :root variables
@@ -37,8 +31,6 @@ $accent-alt-shadow-dark: darken($accent-alt-dark, 10%);
         --text: #{$text-light};
         --accent: #{$accent-light};
         --accent-shadow: #{$accent-shadow-light};
-        --accent-alt: #{$accent-alt-light};
-        --accent-alt-shadow: #{$accent-alt-shadow-light};
     }
 }
 
@@ -49,8 +41,6 @@ $accent-alt-shadow-dark: darken($accent-alt-dark, 10%);
         --text: #{$text-dark};
         --accent: #{$accent-dark};
         --accent-shadow: #{$accent-shadow-dark};
-        --accent-alt: #{$accent-alt-dark};
-        --accent-alt-shadow: #{$accent-alt-shadow-dark};
     }
 }
 
@@ -139,4 +129,5 @@ body {
 .jane {
     display: flex;
     justify-content: center;
+    margin: 20px 0px 5px 0px;
 }
