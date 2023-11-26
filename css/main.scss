@@ -81,10 +81,6 @@ html {
 		will-change: transform;
 		transition: transform 0.2s;
 
-		// &:not(:last-child) {
-		// 	margin-right: 2rem;
-		// }
-
 		&:hover {
 			transform: scale(1.1);
 		}
