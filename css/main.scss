@@ -69,18 +69,21 @@ html {
 
 /* Links */
 .link-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	width: 100%;
+	display: flex;
+	flex-direction: row;
+	max-width: 75%;
+	flex-wrap: wrap;
+	width: fit-content;
 	justify-content: center;
+	gap: 2rem;
 
 	> .link {
 		will-change: transform;
 		transition: transform 0.2s;
 
-		&:not(:last-child) {
-			margin-right: 2rem;
-		}
+		// &:not(:last-child) {
+		// 	margin-right: 2rem;
+		// }
 
 		&:hover {
 			transform: scale(1.1);
