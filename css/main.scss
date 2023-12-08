@@ -72,6 +72,16 @@ html {
 	}
 }
 
+@media (max-width: 768px) {
+	.title-container {
+		margin-bottom: 1rem;
+
+		> .title > h1 {
+			font-size: 2.5rem;
+		}
+	}
+}
+
 /* Links */
 .link-container {
 	display: flex;
@@ -102,6 +112,13 @@ a {
 	font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+	a {
+		max-width: 100%;
+		font-size: 1rem;
+	}
+}
+
 .jane {
 	will-change: transform;
 	transition: transform 0.2s;
@@ -127,5 +144,13 @@ a {
 	> .error > h2 {
 		font-size: 2rem;
 		font-weight: 400;
+	}
+}
+
+@media (max-width: 768px) {
+	.error-container {
+		> .error > h2 {
+			font-size: 1.5rem;
+		}
 	}
 }
